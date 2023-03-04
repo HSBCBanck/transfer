@@ -2,11 +2,20 @@
 html{
     font-family: 'Inter';
 }
-
+ .try{
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(32, 123, 228);
+    color:white;
+    border: none;
+    width: 250px;
+    
+ }
 
 
 .req{
-    border: 5px solid rgb(32, 123, 228);
+    border: -5px solid rgb(32, 123, 228);
     margin-top: 0px;
     display: flex;
    flex-direction: column;
@@ -18,18 +27,25 @@ html{
     justify-content: center;
    
     background-color:  rgb(32, 123, 228);
-    border-radius: 0px;
+    border-top-left-radius: 20px;
+border-top-right-radius: 0;
+border-bottom-right-radius: 30px;
+border-bottom-left-radius: 0;
     padding: 20px 0;
 }
 img{
     width: 30%;
 }
-.req input{
+ input{
     padding: 25px;
     border-radius: 8px;
     background-color: rgb(255, 255, 255);
 
     border: 1px solid #7c6d6d;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 0;
 }
 .sub{
     padding: 40px;
@@ -39,10 +55,26 @@ img{
     padding: 20px;
 }
 .reset{
-    color: #fff;
-    background-color: rgb(168, 60, 60);
+    
+        margin-top: 20px;
+        padding: 20px;
+        background-color: rgb(134, 58, 58);
+        color:white;
+        border: none;
+        width: 250px;
+        border-radius: 8px;
+        
+    
 }
 .ver{
     background-color: rgb(23, 95, 95);
     color: #fff;
+}
+.conteiner{
+    padding: 20px;
+   
+    margin:0  auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
