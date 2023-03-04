@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+html{
+    font-family: 'Inter';
+}
+
+
+
+.req{
+    border: 5px solid rgb(32, 123, 228);
+    margin-top: 0px;
+    display: flex;
+   flex-direction: column;
+   padding: 10px;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+    background-color:  rgb(32, 123, 228);
+    border-radius: 0px;
+    padding: 20px 0;
+}
+img{
+    width: 30%;
+}
+input{
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+
+    border: 1px solid #7c6d6d;
+}
+.sub{
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 136, 223);
+}
+.reset{
+    color: #fff;
+    background-color: rgb(168, 60, 60);
+}
+.ver{
+    background-color: rgb(23, 95, 95);
+    color: #fff;
+}
